@@ -9,6 +9,6 @@ The problem is divided into three sub problems. These are-
 Number plate extraction 
 Character segmentation 
 Character recognition 
-![image](https://user-images.githubusercontent.com/58410387/117492999-0214c880-af90-11eb-83fc-c5c436763f2c.png)
+
 
 
