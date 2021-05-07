@@ -6,9 +6,11 @@ Capturing of fast moving vehicles need special technique to avoid motion blur.
 
 ## Approach
 The problem is divided into three sub problems. These are-
-Number plate extraction 
-Character segmentation 
-Character recognition 
+1. Number plate extraction 
+2. Character segmentation 
+3. Character recognition
+
+ 
 
 
 
