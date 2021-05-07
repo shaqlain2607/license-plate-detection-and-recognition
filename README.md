@@ -15,7 +15,7 @@ The problem is divided into three sub problems. These are-
 With an iou (intersection over union) of 0.74. Transfer learning was used as it gave better result rather than training from scratch.
 
 <p align="center">
-  <img src="detections-img/found.jpg" width=676 height=450>
+  <img src="src/found.jpg" width=676 height=450>
 </p>  
 
 ## Character segmentation
@@ -35,6 +35,26 @@ This character segmentation procedure consists of three sub parts.
 <p align="center">
   <img src="src/result.jpg" width=200 height=80>
 </p>
+
+
+## Character recognition
+#### Training model
+* The model is trained using deep learning and convolutional neural network. The model has a test accuracy of 98.5 percent and a validation accuracy of 98.00 percent.
+* The model can recognise character rotated to max angle of 30 degree.
+#### Character transformation and prediction
+* The segmented image is resized into a 30 x 30 image. This operation is performed to ensure consistency with the input format of the learning model, where each font character that is fed during the training process is a resized 30 x 30 image. 
+* After the resized image is fed to the model, the character is predicted.
+
+<p align="center">
+  <img src="src/my_model2.png" width=400 height=300>
+</p>  
+<p align="center">
+  <img src="src/my_model2_acc_vs_val.png" width=400 height=300>
+</p> 
+
+
+
+
 
 
 
