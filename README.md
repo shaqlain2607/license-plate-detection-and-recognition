@@ -53,7 +53,7 @@ This character segmentation procedure consists of three sub parts.
   <img src="src/my_model2_acc_vs_val.png" width=400 height=300>
 </p> 
 
-+ The model file for the obeject detection and recognition can be downloaded fron the link - https://drive.google.com/drive/folders/12VSUYVqXavp0v4PCZtXoM5lsbaHiT7PU?usp=sharing. 
++ The model file for the object detection and recognition can be downloaded fron the link - https://drive.google.com/drive/folders/12VSUYVqXavp0v4PCZtXoM5lsbaHiT7PU?usp=sharing. 
 + Name of the file are- *detection_config.json* , *detection_model-ex-014--loss-0011.454.h5*, *my_model2.h5*.
 
 
