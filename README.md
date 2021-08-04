@@ -44,7 +44,7 @@ This character segmentation procedure consists of three sub parts.
 * The model can recognise character rotated to max angle of 30 degree.
 #### Character transformation and prediction
 * The segmented image is resized into a 30 x 30 image. This operation is performed to ensure consistency with the input format of the learning model, where each font character that is fed during the training process is a resized 30 x 30 image. 
-* After the resized image is fed to the model, the character is predicted.
+* After the resized image is fed to the model,the character is predicted.
 
 <p align="center">
   <img src="src/my_model2.png" width=400 height=300>
